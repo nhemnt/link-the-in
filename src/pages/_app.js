@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps }) {
   const router = useRouter();
 
   const handleRouteChange = (url) => {
-    window.gtag("config", "R525K9B1DC", {
+    window.gtag("config", "G-R525K9B1DC", {
       page_path: url,
     });
   };

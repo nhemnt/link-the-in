@@ -11,7 +11,7 @@ export default class MyDocument extends Document {
           <meta name="theme-color" content={theme.palette.primary.main} />
           <script
             async
-            src="https://www.googletagmanager.com/gtag/js?id=R525K9B1DC"
+            src="https://www.googletagmanager.com/gtag/js?id=G-R525K9B1DC"
           />
           <script
             dangerouslySetInnerHTML={{
@@ -19,7 +19,7 @@ export default class MyDocument extends Document {
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'R525K9B1DC', { page_path: window.location.pathname });
+              gtag('config', 'G-R525K9B1DC', { page_path: window.location.pathname });
             `,
             }}
           />
